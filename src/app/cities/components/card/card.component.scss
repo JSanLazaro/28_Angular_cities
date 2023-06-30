@@ -1,0 +1,12 @@
+mat-card{
+    border: 1px solid blue;
+}
+mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    height: 20vh;
+  width: 100%;
+  }
+
+  mat-card-actions{
+    margin: auto 0 0;    
+  }

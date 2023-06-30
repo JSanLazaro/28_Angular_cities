@@ -1,0 +1,14 @@
+mat-card{
+    // border: 1px solid blue;
+    background: transparent;
+}
+mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  align-self: center;
+}
+mat-card-content{
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+mat-card{
+    border: 1px solid blue;
+}
+mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    height: 5dvw;
+  width: 100%;
+  }
+  mat-card-footer{
+    align-self: self-end;
+    position: absolute;
+    bottom: 0.25dvw;
+    color: rgb(255, 255, 255);
+  }

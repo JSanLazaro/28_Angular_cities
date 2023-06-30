@@ -1,0 +1,21 @@
+.banner{
+  position: relative;
+}
+img{
+    // border: 2px solid blue;
+    position: relative;
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    height: 20vh;
+  width: 100%;
+    
+}
+h1{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 5dvw;
+  position: absolute; 
+  vertical-align: middle;
+  // color: rgb(151, 151, 2);
+  color: rgba(255, 255, 255, 0.596);
+}
